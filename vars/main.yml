@@ -1,0 +1,30 @@
+---
+homebrew_taps:
+  - caskroom/cask
+  - caskroom/fonts
+  - homebrew/binary
+  - homebrew/dupes
+  - homebrew/versions
+  - thoughtbot/formulae
+
+homebrew_installed_packages:
+  - ansible
+  - autoconf
+  - gettext
+  - kdiff3
+  - pv
+  - python
+  - rcup
+  - ssh-copy-id
+  - wget
+
+homebrew_cask_apps:
+  - google-chrome
+  - iterm2
+  - macvim
+  - dropbox
+  - firefox
+  - menumeters
+  - sublime-text
+  - timemachineeditor
+  - vlc
