@@ -5,3 +5,6 @@
 
 - name: Install user preferences.
   copy: src=Preferences/ dest=~/Library/Preferences/
+
+- name: Set OS X defaults.
+  shell: source ~/.osx

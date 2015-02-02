@@ -1828,7 +1828,7 @@
 	<key>NSFontPanelPreviewHeight</key>
 	<real>0.0</real>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Dropbox</string>
+	<string>~</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -1866,9 +1866,9 @@
 	<key>NSWindow Frame NSFontPanel</key>
 	<string>2046 327 445 496 0 0 2560 1577 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>766 200 924 485 0 0 1920 1177 </string>
+	<string>397 113 924 485 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>481 100 1435 950 0 0 1920 1057 </string>
+	<string>0 215 800 662 0 0 1440 877 </string>
 	<key>NeverWarnAboutShortLivedSessions_2DC34451-2E37-4EEE-8C61-DEB83CB6724F</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -2420,11 +2420,11 @@
 			<key>Name</key>
 			<string>Default</string>
 			<key>Non Ascii Font</key>
-			<string>Inconsolata-dzForPowerline 9</string>
+			<string>Menlo-Regular 11</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>Inconsolata-dzForPowerline 9</string>
+			<string>InconsolataForPowerline-dz 9</string>
 			<key>Option Key Sends</key>
 			<integer>2</integer>
 			<key>Prompt Before Closing 2</key>
@@ -2647,7 +2647,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/leroux/Dropbox</string>
+	<string>/Users/leroux/.battlestation-powerup/files/Preferences</string>
 	<key>PromptOnClose</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -3384,6 +3384,6 @@
 	<key>findRegex_iTerm</key>
 	<true/>
 	<key>iTerm Version</key>
-	<string>2.0.0.20141103</string>
+	<string>2.0</string>
 </dict>
 </plist>

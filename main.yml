@@ -10,5 +10,5 @@
     - homebrew
 
   tasks:
-    - include: tasks/preferences.yml
     - include: tasks/dotfiles.yml
+    - include: tasks/preferences.yml

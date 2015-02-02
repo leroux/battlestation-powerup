@@ -18,6 +18,9 @@ homebrew_installed_packages:
   - cmake
 
 homebrew_cask_apps:
+  # Fonts
+  - font-inconsolata-dz-for-powerline
+  # Apps
   - google-chrome
   - iterm2
   - rescuetime
