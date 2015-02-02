@@ -8,23 +8,37 @@ homebrew_taps:
   - thoughtbot/formulae
 
 homebrew_installed_packages:
-  - ansible
-  - autoconf
-  - gettext
-  - kdiff3
-  - pv
-  - python
-  - rcup
-  - ssh-copy-id
+  - brew-cask
+  - rcm
+  - zsh
+  - vim
+  - autojump
   - wget
+  - terminal-notifier
+  - cmake
 
 homebrew_cask_apps:
   - google-chrome
   - iterm2
-  - macvim
+  - rescuetime
   - dropbox
   - firefox
   - menumeters
   - sublime-text
   - timemachineeditor
   - vlc
+  - tunnelblick
+  - utorrent
+  - hipchat
+  - caffeine
+  - evernote
+  - the-escapers-flux
+  - gpgtools
+  - skype
+  - steam
+  - teamviewer
+  - libreoffice
+  - vmware-fusion
+
+rcm_dotfiles_repo: git://github.com/leroux/dotfiles.git 
+

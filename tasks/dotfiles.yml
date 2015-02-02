@@ -1,0 +1,10 @@
+---
+- name: Clone dotfiles.
+  git: >
+    repo={{ rcm_dotfiles_repo }}
+    dest=~/.dotfiles
+    update=no
+    accept_hostkey=True
+
+- name: Install dotfiles.
+  command: rcup -K
