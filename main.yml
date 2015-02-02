@@ -10,5 +10,13 @@
     - homebrew
 
   tasks:
+    - name: Install gems
+      gem: name="{{ item }}" state=latest
+      with_items:
+        - aws-keychain-util
+
+  tasks:
     - include: tasks/dotfiles.yml
     - include: tasks/preferences.yml
+
+

@@ -12,6 +12,7 @@ homebrew_installed_packages:
   - rcm
   - zsh
   - vim
+  - irssi
   - autojump
   - wget
   - terminal-notifier
