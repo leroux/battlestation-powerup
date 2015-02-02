@@ -37,7 +37,6 @@ homebrew_cask_apps:
   - steam
   - teamviewer
   - libreoffice
-  - vmware-fusion
 
 rcm_dotfiles_repo: git://github.com/leroux/dotfiles.git 
 
