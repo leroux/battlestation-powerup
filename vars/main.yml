@@ -9,6 +9,7 @@ homebrew_taps:
 
 homebrew_installed_packages:
   - brew-cask
+  - ssh
   - rcm
   - zsh
   - vim
