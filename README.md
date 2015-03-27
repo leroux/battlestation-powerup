@@ -2,7 +2,5 @@ battlestation_power_up
 ======================
 
 ```bash
-sudo pip install ansible
-xcode-select --install
-ansible-playbook -K -vvvv main.yml
+curl -L https://raw.github.com/leroux/battlestation-powerup/master/scripts/bootstrap.sh | sh
 ```
