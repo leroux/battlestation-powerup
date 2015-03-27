@@ -15,7 +15,7 @@ fi
 cd $BATTLESTATION_POWERUP_DIR
 
 # Install XCode.
-./files/xcode-cli-tools.sh
+./scripts/xcode-cli-tools.sh
 
 # Install ansible.
 sudo easy_install pip
