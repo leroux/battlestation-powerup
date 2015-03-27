@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 BATTLESTATION_POWERUP_DIR="/tmp/battlestation-powerup"
 
