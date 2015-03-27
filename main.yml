@@ -6,10 +6,6 @@
   vars_files:
     - vars/main.yml
 
-  tasks:
-    - copy: src=xcode-cli-tools.sh dest=/tmp/xcode-cli-tools.sh mode=644
-    - command: sudo bash /tmp/xcode-cli-tools.sh
-
   roles:
     - homebrew
 
