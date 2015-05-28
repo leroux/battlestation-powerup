@@ -6,7 +6,13 @@
   vars_files:
     - vars/main.yml
 
+  vars_prompt:
+    - name: "hostname"
+      prompt: "Hostname"
+      default: "null"
+
   roles:
+    - { role: osxdefaults, hostname: "{{ hostname }}" }
     - homebrew
 
   tasks:

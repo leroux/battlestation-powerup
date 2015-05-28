@@ -1,0 +1,3 @@
+---
+- name: Set OS X defaults.
+  script: osx-defaults.sh "{{ hostname }}"
