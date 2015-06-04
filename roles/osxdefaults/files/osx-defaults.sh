@@ -474,3 +474,7 @@ for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
   "Terminal" "Transmission"; do
   killall "${app}" > /dev/null 2>&1
 done
+
+echo ""
+echo "Do not show icons on Desktop."
+defaults write com.apple.finder CreateDesktop -bool false
