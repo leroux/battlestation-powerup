@@ -139,9 +139,10 @@ sudo defaults write /Library/Preferences/.GlobalPreferences.plist _HIEnableTheme
 # General Power and Performance modifications
 ###############################################################################
 
-#echo ""
-#echo "Disable hibernation. (speeds up entering sleep mode)"
-#sudo pmset -a hibernatemode 0
+# http://apple.stackexchange.com/questions/126669/how-to-add-hibernate-mode-to-macbook-pro
+echo ""
+echo "Always hibernate. (disk is encrypted in this state, unlike in sleep state)"
+sudo pmset -a hibernatemode 25
 
 echo ""
 echo "Disable the sudden motion sensor. (it's not useful for SSDs/current MacBooks)"
