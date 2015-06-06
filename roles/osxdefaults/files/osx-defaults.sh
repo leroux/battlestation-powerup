@@ -37,6 +37,21 @@ cecho() {
 sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+
+###############################################################################
+# Security Hardening
+###############################################################################
+echo ""
+echo "Enable full disk encryption."
+if [ $(fdesetup isactive) != "true" ]; then
+    sudo fdesetup enable
+fi
+
+echo ""
+echo "Turn on firewall (0: off, 1: on and trust apps, 2: block all incoming)."
+sudo defaults write /Library/Preferences/com.apple.alf.plist globalstate -int 2
+
+
 ###############################################################################
 # General UI/UX
 ###############################################################################
